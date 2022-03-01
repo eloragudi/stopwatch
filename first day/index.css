@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 80px;
+    padding: 0px 10px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 50px;
+}
+span{
+    color: red;
+}
+section{
+    background-image: url(./images/fabio-oyXis2kALVg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    display: block;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    
+}
+section .text{
+        font-size: 30px;
+        text-transform: capitalize;
+        color: white;
+        
+
+}
+section .span{
+    color: white;
+    font-size: 15px;
+    
+    
+}
